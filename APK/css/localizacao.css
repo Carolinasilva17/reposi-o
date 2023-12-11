@@ -1,0 +1,67 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+    background: linear-gradient(90deg, rgb(177, 220, 245) 0%, rgb(120, 178, 216) 100%);
+}
+section
+footer{
+    padding:30x 0;
+}
+
+.container{
+    max-width: 876px;
+    margin: 0 auto;
+    padding: 0 5%;
+}
+
+.contact-info{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.contact-info .left-side{
+    width: 60%;
+    padding: 5px;
+    background-color: #000f22;
+    border-radius: 14px;
+    margin-right: 50px;
+    height: fit-content;
+}
+.contact-info .left-side div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.contact-info .left-side div i{
+    font-size: 6px;
+    margin-right: 20px;
+    color: rgb(1, 23, 51);
+}
+.contact-info .left-side p{
+    font-size: 6px;
+    color: rgb(9, 67, 92);
+}
+.contact-info .right-side{
+    width: 90%;
+}
+.contact-info .right-side input{
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    height: 7px;
+    padding: 15px;
+    border-radius: 9px;
+    border: 1px solid #f1f1f1;
+    color: #212121;
+    font-weight: start;
+}
+.contact-info .right-side input:focus,
+.contact-info .right-side textarea:focus{
+    border-color: #000000;
+}

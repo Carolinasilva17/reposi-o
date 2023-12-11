@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://github.com/" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <title>Login</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body class="p-3 m-0 border-0 bd-example m-0 border-0">
+    <form class="row g-3">
+      <div class="col-md-6">
+        <label for="inputEmail4" class="form-label" required>Email</label>
+        <input type="email" class="form-control" id="inputEmail">
+        </div>
+      <div class="col-md-6">
+        <label for="inputPassword4" class="form-label" required>Senha</label>
+        <input type="password" class="form-control" id="inputPassword">
+      </div>
+      <div class="col-12">
+        <div class="form-check" required>
+          <input class="form-check-input" type="checkbox" id="gridCheck" required>
+          <label class="form-check-label" for="gridCheck" required>
+            Confira-me
+          </label>
+        </div>
+      </div>
+      <div class="col-12">
+        <a href="inicio.html" onclick="redirecionar(inicio.html)"><button class="btn btn-primary">Entrar</a></button>
+      </div>
+    </form>
+    <script src="script.js" type="module"></script>
+  </body>
+</html>
