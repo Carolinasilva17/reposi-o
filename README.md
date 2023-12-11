@@ -1,2 +1,2 @@
-# reposi-o
+# reposicao
 atividade
